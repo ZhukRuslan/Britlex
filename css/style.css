@@ -1,0 +1,15 @@
+:root {
+  --prymary-text-color: #8f95a5;
+  --prymary-background-color: #ffffff;
+  --secondary-background-color: #263238;
+  --secondary-text-color: #ffffff;
+  --butt-bg-color: #e5e5e5;
+  --main-sp-color: #2a3246;
+  --secod-sp-color: #546269;
+  --bg-sp-color: #eeeeee;
+  --logo-color: #000000;
+  --sec-logo-color: #939393;
+}
+.body {
+  background-color: var(--bg-sp-color);
+}
