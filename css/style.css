@@ -10,6 +10,146 @@
   --logo-color: #000000;
   --sec-logo-color: #939393;
 }
-.body {
+body {
   background-color: var(--bg-sp-color);
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+.second-title {
+  color: var(--logo-color);
+
+  font-weight: 600;
+  font-size: 48px;
+}
+.third-title {
+  color: var(--secondary-background-color);
+
+  font-weight: 600;
+  font-size: 30px;
+}
+.pricing-title {
+  text-transform: capitalize;
+}
+/* Header */
+.logo {
+  font-size: 36px;
+}
+.hed-list .hed-link {
+  color: var(--secondary-background-color);
+  font-weight: 500;
+}
+.head-but {
+  background-color: var(--butt-bg-color);
+  color: var(--logo-color);
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+}
+
+/* Hero */
+.hero-title {
+  color: var(--logo-color);
+
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 1.25;
+}
+.hero-text {
+  color: var(--prymary-text-color);
+
+  font-size: 24px;
+}
+.btn-hero {
+  background-color: var(--secondary-background-color);
+  color: var(--bg-sp-color);
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+}
+
+/* Skills */
+.skills-text {
+  color: var(--prymary-text-color);
+
+  font-size: 16px;
+}
+.btn-skills {
+  background-color: var(--secondary-background-color);
+  color: var(--secondary-text-color);
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+/* About Us */
+.about-text {
+  color: var(--prymary-text-color);
+
+  line-height: 1.8;
+}
+.namber-us {
+  color: var(--main-sp-color);
+
+  font-weight: 600;
+  font-size: 48px;
+}
+.namber-text {
+  color: var(--prymary-text-color);
+}
+
+/* Pricing */
+.pricing-text {
+  color: var(--prymary-text-color);
+}
+.price {
+  color: var(--secondary-background-color);
+
+  font-size: 24px;
+}
+.period {
+  color: var(--secod-sp-color);
+
+  font-size: 18px;
+}
+
+/* Contact Us */
+.cont-text {
+  color: var(--prymary-text-color);
+}
+.btn-contact {
+  background-color: var(--secondary-background-color);
+  color: var(--secondary-text-color);
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+}
+
+/* Footer */
+.fotter-link {
+  color: var(--prymary-text-color);
+
+  font-size: 24px;
+  letter-spacing: 0.02em;
 }
