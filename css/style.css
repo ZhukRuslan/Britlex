@@ -63,17 +63,33 @@ p {
 }
 
 /* Header */
+.header-section {
+  margin-top: 55px;
+  margin-bottom: 55px;
+}
 .nav-contaner {
   display: flex;
   align-items: center;
-  padding: 0;
-  /* justify-content: center; */
+}
+.nav-header {
+  display: flex;
+  justify-content: center;
 }
 .hed-list {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 236px;
+}
+.hed-list .header-item {
+  margin-right: 50px;
+}
+.hed-list .header-item:last-child {
+  margin-right: 0;
 }
 .logo-link {
-  display: block;
   font-size: 36px;
 }
 .hed-list .hed-link {
@@ -84,6 +100,7 @@ p {
 .head-but {
   min-width: 312px;
   padding: 20px 56px;
+  margin-left: auto;
   border: 2px solid #263238;
   border-radius: 10px;
 
@@ -100,7 +117,15 @@ p {
 }
 
 /* Hero */
+.hero-contaner {
+  display: flex;
+}
+/* .hero-content {
+  margin-left: 144px;
+} */
 .hero-title {
+  margin-bottom: 40px;
+
   color: var(--logo-color);
 
   font-weight: 600;
@@ -108,11 +133,16 @@ p {
   line-height: 1.25;
 }
 .hero-text {
+  margin-bottom: 60px;
+
   color: var(--prymary-text-color);
 
   font-size: 24px;
 }
 .btn-hero {
+  min-width: 426px;
+  padding: 23px 64px;
+  border-radius: 10px;
   background-color: var(--secondary-background-color);
   color: var(--bg-sp-color);
   font-family: "Poppins", sans-serif;
@@ -121,8 +151,12 @@ p {
   font-size: 36px;
   line-height: 1.5;
   letter-spacing: 0.03em;
+  text-align: center;
 }
-
+.img-hero {
+  display: block;
+  margin-left: 144px;
+}
 /* Skills */
 .skills-text {
   color: var(--prymary-text-color);
