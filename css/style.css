@@ -117,12 +117,12 @@ p {
 }
 
 /* Hero */
+.section-hero {
+  margin-bottom: 180px;
+}
 .hero-contaner {
   display: flex;
 }
-/* .hero-content {
-  margin-left: 144px;
-} */
 .hero-title {
   margin-bottom: 40px;
 
@@ -158,6 +158,23 @@ p {
   margin-left: 144px;
 }
 /* Skills */
+/* .section-skills {
+  text-align: center;
+} */
+.skills-list {
+  display: flex;
+  /* justify-content: space-between; */
+}
+.skills-item {
+  margin-right: 30px;
+}
+.skills-item:last-child {
+  margin-right: 0;
+}
+.block-listening {
+  display: flex;
+  flex-direction: row-reverse;
+}
 .skills-text {
   color: var(--prymary-text-color);
 
