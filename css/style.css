@@ -155,8 +155,10 @@ img {
   margin-left: 144px;
 }
 /* Skills */
-.skills-title {
+.section-skills {
   padding-top: 180px;
+}
+.skills-title {
   margin-bottom: 60px;
   text-align: center;
 }
@@ -186,16 +188,11 @@ img {
 .skills-item {
   background-color: var(--bg-sp-color);
 }
-.img-speaking {
-  /* padding: 32px 18px 24px 18px; */
-}
 .speak-title {
   margin-top: 24px;
   margin-bottom: 20px;
 }
 .speak-text {
-  /* width: 347px;
-  height: 192px; */
   margin-bottom: 30px;
 }
 .block-listening {
@@ -207,7 +204,6 @@ img {
 
   font-size: 16px;
 }
-
 .btn-skills {
   background-color: var(--secondary-background-color);
   color: var(--secondary-text-color);
@@ -219,9 +215,11 @@ img {
 }
 
 /* About Us */
+.section-about {
+  padding-top: 180px;
+}
 .about-contaner {
   display: flex;
-  padding-top: 180px;
 }
 .about-block {
   padding-right: 146px;
@@ -246,6 +244,9 @@ img {
 .about-item:last-child {
   margin-right: 0;
 }
+.numbers-bl {
+  text-align: center;
+}
 .namber-us {
   margin-bottom: 6px;
 
@@ -257,15 +258,86 @@ img {
 .namber-text {
   color: var(--prymary-text-color);
 }
-/* .about-img {
-  padding-right: 146px;
-} */
 
 /* Pricing */
-.pricing-text {
+.section-pricinh {
+  padding-top: 180px;
+}
+.pricing-title {
+  margin-bottom: 60px;
+  text-align: center;
+}
+.pricing-lict {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pricing-item {
+  margin-right: 30px;
+}
+.pricing-item:last-child {
+  margin-right: 0;
+}
+.online-title {
+  margin-top: 31px;
+  margin-bottom: 20px;
+}
+.lesson-title {
+  margin-top: 31px;
+  margin-bottom: 18px;
+}
+.person-title {
+  margin-top: 31px;
+  margin-bottom: 20px;
+}
+.pricing-text.online {
+  margin-bottom: 30px;
   color: var(--prymary-text-color);
 }
-.price {
+.pricing-text.lesson {
+  margin-bottom: 57px;
+  color: var(--prymary-text-color);
+}
+.pricing-text.person {
+  margin-bottom: 60px;
+  color: var(--prymary-text-color);
+}
+.price-block.online-block {
+  display: flex;
+  align-items: center;
+  max-width: 260px;
+  height: 45px;
+  padding: 5px 22px 4px 23px;
+  background: var(--bg-sp-color);
+  border-radius: 5px;
+}
+.price-block.lesson-block {
+  display: flex;
+  align-items: center;
+  max-width: 260px;
+  height: 45px;
+  padding: 5px 22px 4px 29px;
+  background: var(--bg-sp-color);
+  border-radius: 5px;
+}
+.price-block.person-block {
+  display: flex;
+  align-items: center;
+  max-width: 260px;
+  height: 45px;
+  padding: 5px 22px 4px 29px;
+  background: var(--bg-sp-color);
+  border-radius: 5px;
+}
+.online-price {
+  margin-right: 28px;
+  color: var(--secondary-background-color);
+
+  font-size: 24px;
+}
+.lesson-price,
+.person-price {
+  margin-right: 21px;
   color: var(--secondary-background-color);
 
   font-size: 24px;
@@ -277,6 +349,10 @@ img {
 }
 
 /* Contact Us */
+.section-contact {
+  padding-top: 180px;
+  padding-bottom: 55px;
+}
 .cont-text {
   color: var(--prymary-text-color);
 }
