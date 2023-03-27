@@ -29,7 +29,7 @@ body {
   padding-right: 20px;
   margin: 0 auto;
 
-  outline: 2px solid #ef4def;
+  /* outline: 2px solid #ef4def; */
 }
 .link {
   text-decoration: none;
@@ -381,9 +381,30 @@ img {
 }
 
 /* Footer */
-.fotter-link {
+.footer-cont {
+  border-top: 1px solid var(--prymary-text-color);
+}
+.footer-bl {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 22px;
+  padding-bottom: 77px;
+}
+.footer-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-link {
   color: var(--prymary-text-color);
 
   font-size: 24px;
   letter-spacing: 0.02em;
+}
+.footer-item {
+  margin-right: 80px;
+}
+.footer-item:last-child {
+  margin-right: 0;
 }
