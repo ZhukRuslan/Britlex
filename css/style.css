@@ -353,7 +353,19 @@ img {
   padding-top: 180px;
   padding-bottom: 55px;
 }
+.contact-bl {
+  display: flex;
+}
+.Us-block {
+  margin-left: 144px;
+}
+.contact-title {
+  margin-bottom: 60px;
+}
 .cont-text {
+  width: 654px;
+  height: 90px;
+  margin-bottom: 30px;
   color: var(--prymary-text-color);
 }
 .btn-contact {
